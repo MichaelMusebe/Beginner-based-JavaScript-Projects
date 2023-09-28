@@ -1,0 +1,66 @@
+body {
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input-container {
+    margin-top: 35px;
+    border: solid 2px black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+
+.password::placeholder {
+    letter-spacing: 0px;
+}
+
+.fa-copy {
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.fa-copy:hover {
+    opacity: 0.8;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+.alert-container{
+    position: fixed;
+    right: 30%;
+    top: 40%;
+    font-size: 30px;
+    transition: 0.4s;
+    
+}
+
+.active.alert-container {
+    display: none;
+}
