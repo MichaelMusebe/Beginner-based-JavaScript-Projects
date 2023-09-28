@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "digital";
+    background: url(img/pexels-nathan-cowley-2489474.jpg);
+    background-size: cover;
+}
+  
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+  }
+  
+  .clock {
+    display: flex;
+  }
+  
+  .clock div {
+    margin: 3px;
+    position: relative;
+  }
+  
+  .clock span {
+    font-size: 50px;
+    background:gray;
+    width: 100px;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    text-shadow: 0px 15px 30px rgba(0, 0, 0, 0.9);
+  }
+  
+  .clock .unit {
+    font-size: 12px;
+    height: 40px;
+    text-transform: uppercase;
+    background: darkgreen;
+    letter-spacing: 5px;
+  }
+  
+  .clock #ampm {
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    background: darkgreen;
+    width: 60px;
+    height: 35px; 
+  }
